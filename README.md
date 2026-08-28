@@ -10,7 +10,7 @@ CN-Academic-Spark 是一个面向中文学术汇报场景的 Codex skill 仓库�
     <td>
       <h4>🚀 直接使用</h4>
       <p><strong><a href="https://www.orcarouter.ai/ref/ref_d855bef1e4b6b6cd0fcc">进入 OrcaRouter API 平台</a> 直接使用本 Skill</strong>。OrcaRouter 除了支持主流的 GPT、Claude 等大模型，还提供 DeepSeek V4 Pro、DeepSeek V4 Flash、千问 3.8 等免费模型。具体模型、额度和使用规则以平台当前页面为准。</p>
-      <p>如果想在自己订阅的 Agent 中本地使用 CN-Academic-Spark，请参考 <a href="https://github.com/wycmochi/cn-academic-spark/blob/main/README.md#installation">“4 安装”说明</a>。</p>
+      <p>如果想在自己订阅的 Agent 中本地使用 CN-Academic-Spark，请参考 <a href="https://github.com/wycmochi/CN-Academic-PPT-Skills/blob/main/README.md#installation">“4 安装”说明</a>。</p>
     </td>
   </tr>
 </table>
@@ -79,8 +79,8 @@ python --version
 ### 4.2 克隆仓库
 
 ```bash
-git clone https://github.com/wycmochi/cn-academic-spark.git
-cd cn-academic-spark
+git clone https://github.com/wycmochi/CN-Academic-PPT-Skills.git
+cd CN-Academic-PPT-Skills
 ```
 
 ### 4.3 安装到 Codex（推荐）
