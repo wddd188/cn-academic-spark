@@ -1,5 +1,7 @@
 # CN-Academic-Spark
 
+[![Powered by OrcaRouter](https://img.shields.io/badge/Powered_by-OrcaRouter-2563eb)](https://www.orcarouter.ai/ref/ref_d855bef1e4b6b6cd0fcc)
+
 CN-Academic-Spark 是一个面向中文学术汇报场景的 Codex skill 仓库。当前仓库的核心 skill 是 `cn-academic-spark-ppt-engine`，用于把论文、开题材料、课程报告、文献综述、政策报告等完整学术材料转换为中文学术 `.pptx`。
 
 它不是单纯的“文字转 PPT”提示词，而是一套包含来源解析、论文图表公式处理、中文学术叙事、模板解析、演讲稿 DOCX生成和质量检查的工作流。
@@ -7,9 +9,9 @@ CN-Academic-Spark 是一个面向中文学术汇报场景的 Codex skill 仓库�
 > [!TIP]
 > #### 🚀 直接使用
 >
-> **点击[![Powered by OrcaRouter](https://img.shields.io/badge/Powered_by-OrcaRouter-2563eb)](https://www.orcarouter.ai/ref/ref_d855bef1e4b6b6cd0fcc)，跳转 OrcaRouter API 平台直接使用本 Skill**。OrcaRouter 除了支持主流的 GPT、Claude 等大模型，还提供 DeepSeek V4 Pro、DeepSeek V4 Flash、千问 3.8 等免费模型。具体模型、额度和使用规则以平台当前页面为准。
+> **点击[![Powered by OrcaRouter](https://img.shields.io/badge/Powered_by-OrcaRouter-2563eb)](https://www.orcarouter.ai/ref/ref_d855bef1e4b6b6cd0fcc) 进入 OrcaRouter API 平台直接使用本 Skill**。OrcaRouter 除了支持主流的 GPT、Claude 等大模型，还提供 DeepSeek V4 Pro、DeepSeek V4 Flash、千问 3.8 等免费模型。具体模型、额度和使用规则以平台当前页面为准。
 >
-> 如果想在自己订阅的 Agent 中本地使用CN-Academic-Spark，请参考下方 **“4 安装”** 部分进行配置。
+> 如果想在自己订阅的 Agent 中本地使用 CN-Academic-Spark，请参考下方 [**“4 安装”**](#installation) 部分进行配置。
 
 > [!IMPORTANT]
 > #### 🌐 英文 PPT / 演讲稿输出
@@ -55,6 +57,8 @@ CN-Academic-Spark 是一个面向中文学术汇报场景的 Codex skill 仓库�
 | 全文技术路线图ppt可编辑版本 | 部分 | √ |
 | 支持自定义参考库，AI生成全文技术路线 | × | √ |
 | 版式溢出、重叠、低分辨率等ppt输出质量检查 | 不稳定 | √ |
+
+<a id="installation" name="installation"></a>
 
 ## 4 安装
 
@@ -128,6 +132,7 @@ cp -R skills/CN_Spark_paper2ppt ~/.claude/skills/
 - 语言与风格：中文学术汇报、偏正式、面向导师/组会/评审专家。
 - 重点内容：必须保留哪些论文图、公式、结果表；是否需要绘制技术路线图或机制图。
 - 模板要求：是否使用用户上传 PPT 模板、是否保留学校 logo、色彩偏好。
+- 产出语言要求（可选）：用户想生成其他语言的PPT及演讲稿。
 
 完整示例：
 
@@ -136,6 +141,7 @@ cp -R skills/CN_Spark_paper2ppt ~/.claude/skills/
 汇报人：张三，学校：某某大学，导师：李四教授。
 汇报时长约 15 分钟，页数控制在 18-22 页。
 请保留论文中的关键结果图和公式，并为每张图生成针对性说明；同时总结我使用模型的原理和全文技术路线，并将其可视化。
+<可选：ppt/演讲稿 使用英文输出>
 ```
 
 ## 6 skill说明与自定义操作
