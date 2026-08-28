@@ -4,21 +4,27 @@ CN-Academic-Spark 是一个面向中文学术汇报场景的 Codex skill 仓库�
 
 它不是单纯的“文字转 PPT”提示词，而是一套包含来源解析、论文图表公式处理、中文学术叙事、模板解析、演讲稿 DOCX生成和质量检查的工作流。
 
-> [!TIP]
-> #### 🚀 直接使用
->
-> **点击 [![Powered by OrcaRouter](https://img.shields.io/badge/Powered_by-OrcaRouter-2563eb)](https://www.orcarouter.ai/ref/ref_d855bef1e4b6b6cd0fcc) 进入 OrcaRouter API 平台直接使用本 Skill**。OrcaRouter 除了支持主流的 GPT、Claude 等大模型，还提供 DeepSeek V4 Pro、DeepSeek V4 Flash、千问 3.8 等免费模型。具体模型、额度和使用规则以平台当前页面为准。
->
-> 如果想在自己订阅的 Agent 中本地使用 CN-Academic-Spark，请参考 [“4 安装”](https://github.com/wycmochi/cn-academic-spark/blob/main/README.md#installation) 部分内容。
+<table>
+  <tr>
+    <td width="0.5" bgcolor="#238636"></td>
+    <td>
+      <h4>🚀 直接使用</h4>
+      <p><strong><a href="https://www.orcarouter.ai/ref/ref_d855bef1e4b6b6cd0fcc">进入 OrcaRouter API 平台</a> 直接使用本 Skill</strong>。OrcaRouter 除了支持主流的 GPT、Claude 等大模型，还提供 DeepSeek V4 Pro、DeepSeek V4 Flash、千问 3.8 等免费模型。具体模型、额度和使用规则以平台当前页面为准。</p>
+      <p>如果想在自己订阅的 Agent 中本地使用 CN-Academic-Spark，请参考 <a href="https://github.com/wycmochi/cn-academic-spark/blob/main/README.md#installation">“4 安装”说明</a>。</p>
+    </td>
+  </tr>
+</table>
 
-> [!IMPORTANT]
-> #### 🌐 英文 PPT / 演讲稿输出
->
-> 如果想使用此 Skill 制作英文 PPT，只需在 prompt 中明确说明：
->
-> ```text
-> ppt/演讲稿 使用英文输出
-> ```
+<table>
+  <tr>
+    <td width="0.5" bgcolor="#8957e5"></td>
+    <td>
+      <h4>🌐 英文 PPT / 演讲稿输出</h4>
+      <p>如果想使用此 Skill 制作英文 PPT，只需在 prompt 中明确说明：</p>
+      <pre>ppt/演讲稿 使用英文输出</pre>
+    </td>
+  </tr>
+</table>
 
 ## 1 案例展示
 
