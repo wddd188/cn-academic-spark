@@ -15,6 +15,10 @@ description: >
 # CN Academic Spark PPT Engine
 document explanation(It doesn't affect the process, it only helps with understanding）：本文件是 skill 主入口；当用户提供学术材料并要求生成中文学术 PPT 时触发；它串联 source 解析、模板选择、学术大纲、图片获取、内置 TechnicalRoute、SVG 生成、质检和 PPTX 导出。
 
+## User Preferred Thematic / Case Narrative
+
+For this user's topic-based course presentations and case-study decks (Route B), use the six-part narrative in [Route B Course Report](references/academic/route-course-report.md#user-preferred-six-part-structure): policy background → what the topic is → what it solves → construction bottlenecks → practice cases that address those bottlenecks (main emphasis) → future outlook illustrated by real cases. Apply this before the generic page roster or paper-type narrative. Preserve the selected template; adapt page count and timing to the request. A newer explicit user outline takes precedence. Do not impose this structure on single-paper, proposal, or literature-review decks unless requested.
+
 ## Core Contract
 
 Output a real editable `.pptx`, not a Markdown outline and not flattened slide screenshots. Generate editable SVG pages first, then convert them to native DrawingML using `scripts/svg_to_pptx.py`.
